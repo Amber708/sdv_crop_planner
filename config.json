@@ -1,890 +1,4421 @@
 {
 	"crops": [
-		{
-			"buy": 70,
-			"harvest": {},
-			"id": "amaranth",
-			"index": 299,
-			"name": "Amaranth",
-			"scythe": true,
-			"seasons": [
-				"fall"
-			],
-			"sell": 150,
-			"stages": [
-				1,
-				2,
-				2,
-				2
-			]
+      {
+        "buy": 50,
+        "harvest": {
+          "extra_chance": 0.0,
+          "level_increase": 5,
+          "max": 1,
+          "min": 1
+        },
+        "id": "adzuki_bean",
+        "name": "Adzuki Bean",
+        "seasons": [
+            "summer"
+        ],
+        "sell": 0,
+        "stages": [1, 2, 3, 2, 1],
+        "trellis": false
+      },
+	  {
+		"buy": 3750,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
 		},
-		{
-			"buy": 700,
-			"harvest": {},
-			"id": "ancient_fruit",
-			"index": 499,
-			"name": "Ancient Fruit",
-			"regrow": 7,
-			"seasons": [
-				"spring",
-				"summer",
-				"fall"
-			],
-			"sell": 550,
-			"stages": [
-				2,
-				7,
-				7,
-				7,
-				5
-			]
+		"id": "almond",
+		"name": "Almond",
+		"scythe": false,
+		"regrow": 1,
+		"seasons": [
+		  "fall"
+		],
+		"sell": 90,
+		"stages": [
+		  9,
+		  9,
+		  9,
+		  9
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 100,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
 		},
-		{
-			"buy": 30,
-			"harvest": {},
-			"id": "artichoke",
-			"index": 489,
-			"name": "Artichoke",
-			"seasons": [
-				"fall"
-			],
-			"sell": 160,
-			"stages": [
-				2,
-				2,
-				1,
-				2,
-				1
-			]
+		"id": "aloe",
+		"name": "Aloe",
+		"scythe": false,
+		"seasons": [
+		  "summer"
+		],
+		"sell": 140,
+		"stages": [
+		  1,
+		  1,
+		  1,
+		  1
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 70,
+		"harvest": {},
+		"id": "amaranth",
+		"index": 299,
+		"name": "Amaranth",
+		"scythe": true,
+		"seasons": [
+		  "fall"
+		],
+		"sell": 150,
+		"stages": [
+		  1,
+		  2,
+		  2,
+		  2
+		]
+	  },
+	  {
+		"buy": 700,
+		"harvest": {},
+		"id": "ancient_fruit",
+		"index": 499,
+		"name": "Ancient Fruit",
+		"regrow": 7,
+		"seasons": [
+		  "spring",
+		  "summer",
+		  "fall"
+		],
+		"sell": 550,
+		"stages": [
+		  2,
+		  7,
+		  7,
+		  7,
+		  5
+		]
+	  },
+      {
+        "buy": 4000,
+        "harvest": {
+          "extra_chance": 0.0,
+          "level_increase": 5,
+          "max": 1,
+          "min": 1
+        },
+        "id": "apple",
+        "name": "Apple",
+        "scythe": false,
+        "regrow": 1,
+        "seasons": [
+          "fall"
+        ],
+        "sell": 100,
+         "stages": [
+          9,
+          9,
+          9,
+          9
+        ],
+        "trellis": false
+      },
+	  {
+		  "buy": 2000,
+		  "harvest": {
+		    "extra_chance": 0.0,
+		    "level_increase": 5,
+		    "max": 1,
+		    "min": 1
+		  },
+		  "id": "apricot",
+		  "name": "Apricot",
+		  "scythe": false,
+		  "regrow": 1,
+		  "seasons": [
+		    "spring"
+		  ],
+		  "sell": 50,
+		  "stages": [
+		    9,
+		    9,
+		    9,
+		    9
+		  ],
+		  "trellis": false
+	  },		
+	  {
+		"buy": 30,
+		"harvest": {},
+		"id": "artichoke",
+		"index": 489,
+		"name": "Artichoke",
+		"seasons": [
+		  "fall"
+		],
+		"sell": 160,
+		"stages": [
+		  2,
+		  2,
+		  1,
+		  2,
+		  1
+		]
+	  },
+	  {
+		"buy": 3500,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
 		},
-		{
-			"buy": 20,
-			"harvest": {},
-			"id": "beet",
-			"index": 494,
-			"name": "Beet",
-			"seasons": [
-				"fall"
-			],
-			"sell": 100,
-			"stages": [
-				1,
-				1,
-				2,
-				2
-			]
+		"id": "asian_pear",
+		"name": "Asian Pear",
+		"scythe": false,
+		"regrow": 1,
+		"seasons": [
+		  "fall"
+		],
+		"sell": 125,
+		"stages": [
+		  9,
+		  9,
+		  9,
+		  9
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 20,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
 		},
-		{
-			"buy": 30,
-			"harvest": {},
-			"id": "blue_jazz",
-			"index": 429,
-			"name": "Blue Jazz",
-			"seasons": [
-				"spring"
-			],
-			"sell": 50,
-			"stages": [
-				1,
-				2,
-				2,
-				2
-			]
+		"id": "asparagus",
+		"name": "Asparagus",
+		"scythe": false,
+		"seasons": [
+		  "summer"
+		],
+		"sell": 35,
+		"stages": [
+		  1,
+		  2,
+		  1,
+		  1
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 8000,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
 		},
-		{
-			"buy": 80,
-			"harvest": {
-				"extra_chance": 0.02,
-				"level_increase": 5,
-				"max": 5,
-				"min": 3
-			},
-			"id": "blueberry",
-			"index": 481,
-			"name": "Blueberry",
-			"regrow": 4,
-			"seasons": [
-				"summer"
-			],
-			"sell": 50,
-			"stages": [
-				1,
-				3,
-				3,
-				4,
-				2
-			]
+		"id": "avocado",
+		"name": "Avocado",
+		"scythe": false,
+		"regrow": 1,
+		"seasons": [
+		  "summer"
+		],
+		"sell": 200,
+		"stages": [
+		  9,
+		  9,
+		  9,
+		  9
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 150,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 4,
+		  "min": 2
 		},
-		{
-			"buy": 50,
-			"harvest": {},
-			"id": "bok_choy",
-			"index": 491,
-			"name": "Bok Choy",
-			"seasons": [
-				"fall"
-			],
-			"sell": 80,
-			"stages": [
-				1,
-				1,
-				1,
-				1
-			]
+		"id": "bamboo",
+		"name": "Bamboo",
+		"scythe": true,
+		"regrow": 5,
+		"seasons": [
+		  "spring",
+		  "summer"
+		],
+		"sell": 55,
+		"stages": [
+		  1,
+		  1,
+		  1,
+		  1
+		],
+		"trellis": false
+	  },
+      {
+        "buy": 2500,
+        "harvest": {
+          "extra_chance": 0.0,
+          "level_increase": 5,
+          "max": 1,
+          "min": 1
+        },
+        "id": "banana",
+        "name": "Banana",
+        "scythe": false,
+        "regrow": 1,
+        "seasons": [
+          "spring",
+		  "summer",
+		  "fall",
+		  "winter"
+        ],
+        "sell": 150,
+         "stages": [
+          9,
+          9,
+          9,
+          9
+        ],
+        "trellis": false
+      },
+	  {
+		"buy": 10,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
 		},
-		{
-			"buy": 80,
-			"harvest": {},
-			"id": "cauliflower",
-			"index": 474,
-			"name": "Cauliflower",
-			"seasons": [
-				"spring"
-			],
-			"sell": 175,
-			"stages": [
-				1,
-				2,
-				4,
-				4,
-				1
-			]
+		"id": "barley",
+		"name": "Barley",
+		"scythe": true,
+		"seasons": [
+		  "fall"
+		],
+		"sell": 25,
+		"stages": [
+		  1,
+		  1,
+		  1,
+		  1
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 20,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
 		},
-		{
-			"buy": 30,
-			"harvest": {
-				"extra_chance": 0.02,
-				"level_increase": 10,
-				"max": 6,
-				"min": 4
-			},
-			"id": "coffee_bean",
-			"index": 433,
-			"name": "Coffee Bean",
-			"note": "Sold by Travelling Cart for ~2500g",
-			"regrow": 2,
-			"seasons": [
-				"spring",
-				"summer"
-			],
-			"sell": 15,
-			"stages": [
-				1,
-				2,
-				2,
-				3,
-				2
-			]
+		"id": "basil",
+		"name": "Basil",
+		"scythe": false,
+		"seasons": [
+		  "spring"
+		],
+		"sell": 35,
+		"stages": [
+		  1,
+		  1,
+		  1,
+		  1
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 60,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
 		},
-		{
-			"buy": 150,
-			"harvest": {
-				"extra_chance": 0.0,
-				"level_increase": 5,
-				"max": 2,
-				"min": 1
-			},
-			"id": "corn",
-			"index": 487,
-			"name": "Corn",
-			"regrow": 4,
-			"seasons": [
-				"summer",
-				"fall"
-			],
-			"sell": 50,
-			"stages": [
-				2,
-				3,
-				3,
-				3,
-				3
-			]
+		"id": "bee_balm",
+		"name": "Bee Balm",
+		"scythe": false,
+		"seasons": [
+		  "fall"
+		],
+		"sell": 115,
+		"stages": [
+		  1,
+		  2,
+		  3,
+		  3
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 20,
+		"harvest": {},
+		"id": "beet",
+		"index": 494,
+		"name": "Beet",
+		"seasons": [
+		  "fall"
+		],
+		"sell": 100,
+		"stages": [
+		  1,
+		  1,
+		  2,
+		  2
+		]
+	  },
+	  {
+		"buy": 130,
+		"harvest": {
+		  "extra_chance": 0.2,
+		  "level_increase": 5,
+		  "max": 3,
+		  "min": 1
 		},
-		{
-			"buy": 240,
-			"harvest": {
-				"extra_chance": 0.1,
-				"level_increase": 5,
-				"max": 6,
-				"min": 2
-			},
-			"id": "cranberries",
-			"index": 493,
-			"name": "Cranberries",
-			"regrow": 5,
-			"seasons": [
-				"fall"
-			],
-			"sell": 75,
-			"stages": [
-				1,
-				2,
-				1,
-				1,
-				2
-			]
+		"id": "bell_pepper",
+		"name": "Bell Pepper",
+		"scythe": false,
+		"regrow": 4,
+		"seasons": [
+		  "fall"
+		],
+		"sell": 70,
+		"stages": [
+		  1,
+		  2,
+		  2,
+		  2,
+		  2
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 60,
+		"harvest": {
+		  "extra_chance": 0.2,
+		  "level_increase": 5,
+		  "max": 3,
+		  "min": 1
 		},
-		{
-			"buy": 20,
-			"harvest": {
-				"extra_chance": 0.002,
-				"level_increase": 10,
-				"max": 2,
-				"min": 1
-			},
-			"id": "eggplant",
-			"index": 488,
-			"name": "Eggplant",
-			"regrow": 5,
-			"seasons": [
-				"fall"
-			],
-			"sell": 60,
-			"stages": [
-				1,
-				1,
-				1,
-				1,
-				1
-			]
+		"id": "blackberry",
+		"name": "Blackberry",
+		"scythe": false,
+		"regrow": 4,
+		"seasons": [
+		  "fall"
+		],
+		"sell": 20,
+		"stages": [
+		  1,
+		  2,
+		  2,
+		  2,
+		  2
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 200,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
 		},
-		{
-			"buy": 0,
-			"harvest": {},
-			"id": "fall_seeds",
-			"index": 478,
-			"name": "Fall Seeds",
-			"seasons": [
-				"fall"
-			],
-			"sell": 57,
-			"stages": [
-				3,
-				4
-			]
+		"id": "blue_agave",
+		"name": "Blue Agave",
+		"scythe": false,
+		"seasons": [
+		  "summer"
+		],
+		"sell": 300,
+		"stages": [
+		  2,
+		  3,
+		  4,
+		  3
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 30,
+		"harvest": {},
+		"id": "blue_jazz",
+		"index": 429,
+		"name": "Blue Jazz",
+		"seasons": [
+		  "spring"
+		],
+		"sell": 50,
+		"stages": [
+		  1,
+		  2,
+		  2,
+		  2
+		]
+	  },
+	  {
+		"buy": 180,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
 		},
-		{
-			"buy": 200,
-			"harvest": {},
-			"id": "fairy_rose",
-			"index": 425,
-			"name": "Fairy Rose",
-			"seasons": [
-				"fall"
-			],
-			"sell": 290,
-			"stages": [
-				1,
-				4,
-				4,
-				3
-			]
+		"id": "blue_mist",
+		"name": "Blue Mist",
+		"scythe": false,
+		"seasons": [
+		  "summer"
+		],
+		"sell": 250,
+		"stages": [
+		  1,
+		  2,
+		  2,
+		  2
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 80,
+		"harvest": {
+		  "extra_chance": 0.02,
+		  "level_increase": 5,
+		  "max": 5,
+		  "min": 3
 		},
-		{
-			"buy": 40,
-			"harvest": {},
-			"id": "garlic",
-			"index": 476,
-			"name": "Garlic",
-			"seasons": [
-				"spring"
-			],
-			"sell": 60,
-			"stages": [
-				1,
-				1,
-				1,
-				1
-			]
+		"id": "blueberry",
+		"index": 481,
+		"name": "Blueberry",
+		"regrow": 4,
+		"seasons": [
+		  "summer"
+		],
+		"sell": 50,
+		"stages": [
+		  1,
+		  3,
+		  3,
+		  4,
+		  2
+		]
+	  },
+	  {
+		"buy": 50,
+		"harvest": {},
+		"id": "bok_choy",
+		"index": 491,
+		"name": "Bok Choy",
+		"seasons": [
+		  "fall"
+		],
+		"sell": 80,
+		"stages": [
+		  1,
+		  1,
+		  1,
+		  1
+		]
+	  },
+	  {
+		"buy": 8000,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
 		},
-		{
-			"buy": 60,
-			"harvest": {
-				"extra_chance": 0.0,
-				"level_increase": 6,
-				"max": 2,
-				"min": 1
-			},
-			"id": "grape",
-			"index": 301,
-			"name": "Grape",
-			"regrow": 3,
-			"seasons": [
-				"fall"
-			],
-			"sell": 80,
-			"stages": [
-				1,
-				1,
-				2,
-				3,
-				3
-			],
-			"trellis": true
+		"id": "breadfruit",
+		"name": "Breadfruit",
+		"scythe": false,
+		"regrow": 1,
+		"seasons": [
+		  "spring"
+		],
+		"sell": 200,
+		"stages": [
+		  9,
+		  9,
+		  9,
+		  9
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 80,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
 		},
-		{
-			"buy": 60,
-			"harvest": {
-				"extra_chance": 0.0,
-				"level_increase": 6,
-				"max": 2,
-				"min": 1
-			},
-			"id": "green_bean",
-			"index": 473,
-			"name": "Green Bean",
-			"regrow": 3,
-			"seasons": [
-				"spring"
-			],
-			"sell": 40,
-			"stages": [
-				1,
-				1,
-				1,
-				3,
-				4
-			],
-			"trellis": true
+		"id": "broccoli",
+		"name": "Broccoli",
+		"scythe": false,
+		"seasons": [
+		  "fall"
+		],
+		"sell": 120,
+		"stages": [
+		  1,
+		  2,
+		  2,
+		  2
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 10,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
 		},
-		{
-			"buy": 60,
-			"harvest": {
-				"extra_chance": 0.0,
-				"level_increase": 6,
-				"max": 2,
-				"min": 1
-			},
-			"id": "hops",
-			"index": 302,
-			"name": "Hops",
-			"regrow": 1,
-			"seasons": [
-				"summer"
-			],
-			"sell": 25,
-			"stages": [
-				1,
-				1,
-				2,
-				3,
-				4
-			],
-			"trellis": true
+		"id": "buckwheat",
+		"name": "Buckwheat",
+		"scythe": true,
+		"seasons": [
+		  "spring"
+		],
+		"sell": 25,
+		"stages": [
+		  1,
+		  1,
+		  1,
+		  1
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 180,
+		"harvest": {
+		  "extra_chance": 0.2,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
 		},
-		{
-			"buy": 40,
-			"harvest": {
-				"extra_chance": 0.03,
-				"level_increase": 5,
-				"max": 1,
-				"min": 1
-			},
-			"id": "hot_pepper",
-			"index": 482,
-			"name": "Hot Pepper",
-			"regrow": 3,
-			"seasons": [
-				"summer"
-			],
-			"sell": 40,
-			"stages": [
-				1,
-				1,
-				1,
-				1,
-				1
-			]
+		"id": "butternut_squash",
+		"name": "Butternut Squash",
+		"scythe": false,
+		"regrow": 4,
+		"seasons": [
+		  "summer"
+		],
+		"sell": 440,
+		"stages": [
+		  1,
+		  2,
+		  2,
+		  2,
+		  2
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 80,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
 		},
-		{
-			"buy": 70,
-			"harvest": {},
-			"id": "kale",
-			"index": 477,
-			"name": "Kale",
-			"scythe": true,
-			"seasons": [
-				"spring"
-			],
-			"sell": 110,
-			"stages": [
-				1,
-				2,
-				2,
-				1
-			]
+		"id": "cabbage",
+		"name": "Cabbage",
+		"scythe": false,
+		"seasons": [
+		  "spring",
+		  "fall"
+		],
+		"sell": 120,
+		"stages": [
+		  1,
+		  2,
+		  2,
+		  1,
+		  1
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 1300,
+		"harvest": {
+		  "extra_chance": 0.2,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
 		},
-		{
-			"buy": 80,
-			"harvest": {},
-			"id": "melon",
-			"index": 479,
-			"name": "Melon",
-			"seasons": [
-				"summer"
-			],
-			"sell": 250,
-			"stages": [
-				1,
-				2,
-				3,
-				3,
-				3
-			]
+		"id": "cactus_flower",
+		"name": "Cactus Flower",
+		"scythe": false,
+		"regrow": 5,
+		"seasons": [
+		  "spring",
+		  "summer",
+		  "fall"
+		],
+		"sell": 600,
+		"stages": [
+		  2,
+		  4,
+		  6,
+		  6,
+		  6
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 4000,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
 		},
-		{
-			"buy": 20,
-			"harvest": {},
-			"id": "parsnip",
-			"index": 472,
-			"name": "Parsnip",
-			"seasons": [
-				"spring"
-			],
-			"sell": 35,
-			"stages": [
-				1,
-				1,
-				1,
-				1
-			]
+		"id": "camphor",
+		"name": "Camphor Leaves",
+		"scythe": false,
+		"regrow": 1,
+		"seasons": [
+		  "winter"
+		],
+		"sell": 100,
+		"stages": [
+		  9,
+		  9,
+		  9,
+		  9
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 50,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
 		},
-		{
-			"buy": 0,
-			"harvest": {},
-			"id": "pineapple",
-			"index": 472,
-			"name": "Pineapple",
-			"seasons": [
-				"summer"
-			],
-			"sell": 300,
-			"regrow": 7,
-			"stages": [
-				1,
-				3,
-				3,
-				4,
-				3
-			]
+		"id": "carrot",
+		"name": "Carrot",
+		"scythe": false,
+		"seasons": [
+		  "fall"
+		],
+		"sell": 65,
+		"stages": [
+		  1,
+		  2,
+		  1,
+		  1,
+		  1
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 4000,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
 		},
-		{
-			"buy": 100,
-			"harvest": {},
-			"id": "poppy",
-			"index": 453,
-			"name": "Poppy",
-			"seasons": [
-				"summer"
-			],
-			"sell": 140,
-			"stages": [
-				1,
-				2,
-				2,
-				2
-			]
+		"id": "cashew",
+		"name": "Cashew",
+		"scythe": false,
+		"regrow": 1,
+		"seasons": [
+		  "fall"
+		],
+		"sell": 100,
+		"stages": [
+		  9,
+		  9,
+		  9,
+		  9
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 60,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
 		},
-		{
-			"buy": 50,
-			"harvest": {
-				"extra_chance": 0.2,
-				"level_increase": 8,
-				"max": 2,
-				"min": 1
-			},
-			"id": "potato",
-			"index": 475,
-			"name": "Potato",
-			"seasons": [
-				"spring"
-			],
-			"sell": 80,
-			"stages": [
-				1,
-				1,
-				1,
-				2,
-				1
-			]
+		"id": "cassava",
+		"name": "Cassava",
+		"scythe": true,
+		"seasons": [
+		  "summer"
+		],
+		"sell": 80,
+		"stages": [
+		  1,
+		  2,
+		  2,
+		  1,
+		  1
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 80,
+		"harvest": {},
+		"id": "cauliflower",
+		"index": 474,
+		"name": "Cauliflower",
+		"seasons": [
+		  "spring"
+		],
+		"sell": 175,
+		"stages": [
+		  1,
+		  2,
+		  4,
+		  4,
+		  1
+		]
+	  },
+	  {
+		"buy": 55,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
 		},
-		{
-			"buy": 100,
-			"harvest": {},
-			"id": "pumpkin",
-			"index": 490,
-			"name": "Pumpkin",
-			"seasons": [
-				"fall"
-			],
-			"sell": 320,
-			"stages": [
-				1,
-				2,
-				3,
-				4,
-				3
-			]
+		"id": "celery",
+		"name": "Celery",
+		"scythe": false,
+		"seasons": [
+		  "fall"
+		],
+		"sell": 70,
+		"stages": [
+		  1,
+		  2,
+		  2,
+		  1
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 30,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
 		},
-		{
-			"buy": 40,
-			"harvest": {},
-			"id": "radish",
-			"index": 484,
-			"name": "Radish",
-			"seasons": [
-				"summer"
-			],
-			"sell": 90,
-			"stages": [
-				2,
-				1,
-				2,
-				1
-			]
+		"id": "chamomile",
+		"name": "Chamomile",
+		"scythe": false,
+		"seasons": [
+		  "spring"
+		],
+		"sell": 45,
+		"stages": [
+		  1,
+		  1,
+		  1,
+		  1
+		],
+		"trellis": false
+	  },
+      {
+        "buy": 3400,
+        "harvest": {
+          "extra_chance": 0.0,
+          "level_increase": 5,
+          "max": 1,
+          "min": 1
+        },
+        "id": "cherry",
+        "name": "Cherry",
+        "scythe": false,
+        "regrow": 1,
+        "seasons": [
+          "spring"
+        ],
+        "sell": 80,
+         "stages": [
+          9,
+          9,
+          9,
+          9
+        ],
+        "trellis": false
+      },
+	  {
+		"buy": 200,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 2,
+		  "min": 2
 		},
-		{
-			"buy": 100,
-			"harvest": {},
-			"id": "red_cabbage",
-			"index": 485,
-			"name": "Red Cabbage",
-			"seasons": [
-				"summer"
-			],
-			"sell": 260,
-			"stages": [
-				2,
-				1,
-				2,
-				2,
-				2
-			]
+		"id": "chickpea",
+		"name": "Chickpea",
+		"scythe": false,
+		"regrow": 5,
+		"seasons": [
+		  "summer"
+		],
+		"sell": 55,
+		"stages": [
+		  2,
+		  2,
+		  2,
+		  2,
+		  1
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 20,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
 		},
-		{
-			"buy": 100,
-			"harvest": {},
-			"id": "rhubarb",
-			"index": 478,
-			"name": "Rhubarb",
-			"seasons": [
-				"spring"
-			],
-			"sell": 220,
-			"stages": [
-				2,
-				2,
-				2,
-				3,
-				4
-			]
+		"id": "chives",
+		"name": "Chives",
+		"scythe": false,
+		"seasons": [
+		  "summer"
+		],
+		"sell": 35,
+		"stages": [
+		  1,
+		  1,
+		  1,
+		  1
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 6000,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
 		},
-		{
-			"buy": 0,
-			"harvest": {},
-			"id": "spring_seeds",
-			"index": 478,
-			"name": "Spring Seeds",
-			"seasons": [
-				"spring"
-			],
-			"sell": 45,
-			"stages": [
-				3,
-				4
-			]
+		"id": "cinnamon",
+		"name": "Cinnamon Sticks",
+		"scythe": false,
+		"regrow": 1,
+		"seasons": [
+		  "winter"
+		],
+		"sell": 140,
+		"stages": [
+		  9,
+		  9,
+		  9,
+		  9
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 100,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 3,
+		  "min": 1
 		},
-		{
-			"buy": 400,
-			"harvest": {},
-			"id": "starfruit",
-			"index": 486,
-			"name": "Starfruit",
-			"seasons": [
-				"summer"
-			],
-			"sell": 750,
-			"stages": [
-				2,
-				3,
-				2,
-				3,
-				3
-			]
+		"id": "clary_sage",
+		"name": "Clary Sage",
+		"scythe": false,
+		"seasons": [
+		  "summer"
+		],
+		"sell": 130,
+		"stages": [
+		  1,
+		  2,
+		  3,
+		  2
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 30,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 3,
+		  "min": 1
 		},
-		{
-			"buy": 100,
-			"harvest": {
-				"extra_chance": 0.02,
-				"level_increase": 5,
-				"max": 1,
-				"min": 1
-			},
-			"id": "strawberry",
-			"index": 745,
-			"name": "Strawberry",
-			"regrow": 4,
-			"seasons": [
-				"spring"
-			],
-			"sell": 120,
-			"stages": [
-				1,
-				1,
-				2,
-				2,
-				2
-			]
+		"id": "coal",
+		"name": "Coal",
+		"scythe": false,
+		"seasons": [
+		  "spring",
+		  "summer"
+		],
+		"sell": 15,
+		"stages": [
+		  2,
+		  3,
+		  2,
+		  1
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 5000,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
 		},
-		{
-			"buy": 0,
-			"harvest": {},
-			"id": "summer_seeds",
-			"index": 478,
-			"name": "Summer Seeds",
-			"seasons": [
-				"summer"
-			],
-			"sell": 70,
-			"stages": [
-				3,
-				4
-			]
+		"id": "cocoa",
+		"name": "Cocoa Pod",
+		"scythe": false,
+		"regrow": 1,
+		"seasons": [
+		  "spring"
+		],
+		"sell": 125,
+		"stages": [
+		  9,
+		  9,
+		  9,
+		  9
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 30,
+		"harvest": {
+		  "extra_chance": 0.02,
+		  "level_increase": 10,
+		  "max": 6,
+		  "min": 4
 		},
-		{
-			"buy": 50,
-			"harvest": {},
-			"id": "summer_spangle",
-			"index": 455,
-			"name": "Summer Spangle",
-			"seasons": [
-				"summer"
-			],
-			"sell": 90,
-			"stages": [
-				1,
-				2,
-				3,
-				2
-			]
+		"id": "coffee_bean",
+		"index": 433,
+		"name": "Coffee Bean",
+		"note": "Sold by Travelling Cart for ~2500g",
+		"regrow": 2,
+		"seasons": [
+		  "spring",
+		  "summer"
+		],
+		"sell": 15,
+		"stages": [
+		  1,
+		  2,
+		  2,
+		  2,
+		  2
+		]
+	  },
+	  {
+		"buy": 50,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 6,
+		  "min": 4
 		},
-		{
-			"buy": 125,
-			"harvest": {},
-			"id": "sunflower",
-			"index": 431,
-			"name": "Sunflower",
-			"note": "Cheapest at JojaMart",
-			"seasons": [
-				"summer",
-				"fall"
-			],
-			"sell": 80,
-			"stages": [
-				1,
-				2,
-				3,
-				2
-			]
+		"id": "copper_leaf",
+		"name": "Copper",
+		"scythe": false,
+		"seasons": [
+		  "spring"
+		],
+		"sell": 5,
+		"stages": [
+		  3,
+		  2,
+		  2,
+		  2
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 150,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 2,
+		  "min": 1
 		},
-		{
-			"buy": 1000,
-			"harvest": {},
-			"id": "sweet_gem_berry",
-			"index": 347,
-			"name": "Sweet Gem Berry",
-			"seasons": [
-				"fall"
-			],
-			"sell": 3000,
-			"stages": [
-				2,
-				4,
-				6,
-				6,
-				6
-			]
+		"id": "corn",
+		"index": 487,
+		"name": "Corn",
+		"regrow": 4,
+		"seasons": [
+		  "summer",
+		  "fall"
+		],
+		"sell": 50,
+		"stages": [
+		  2,
+		  3,
+		  3,
+		  3,
+		  3
+		]
+	  },
+	  {
+		"buy": 80,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 2,
+		  "min": 2
 		},
-		{
-			"buy": 0,
-			"harvest": {},
-			"id": "taro_root_unirrigated",
-			"index": 347,
-			"name": "Taro Root (Unirrigated)",
-			"seasons": [
-				"summer"
-			],
-			"sell": 20,
-			"stages": [
-				1,
-				2,
-				3,
-				4
-			]
+		"id": "cotton",
+		"name": "Cotton Boll",
+		"scythe": false,
+		"regrow": 3,
+		"seasons": [
+		  "summer",
+		  "fall"
+		],
+		"sell": 65,
+		"stages": [
+		  1,
+		  1,
+		  1,
+		  2,
+		  2
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 240,
+		"harvest": {
+		  "extra_chance": 0.1,
+		  "level_increase": 5,
+		  "max": 6,
+		  "min": 2
 		},
-		{
-			"buy": 0,
-			"harvest": {},
-			"id": "taro_root_irrigated",
-			"index": 347,
-			"name": "Taro Root (Irrigated)",
-			"seasons": [
-				"summer"
-			],
-			"sell": 20,
-			"stages": [
-				1,
-				1,
-				2,
-				3
-			]
+		"id": "cranberries",
+		"index": 493,
+		"name": "Cranberry",
+		"regrow": 5,
+		"seasons": [
+		  "fall"
+		],
+		"sell": 75,
+		"stages": [
+		  1,
+		  2,
+		  1,
+		  1,
+		  2
+		]
+	  },
+	  {
+		"buy": 65,
+		"harvest": {
+		  "extra_chance": 0.2,
+		  "level_increase": 5,
+		  "max": 3,
+		  "min": 1
 		},
-		{
-			"buy": 0,
-			"harvest": { "days": [ 22, 23, 24, 25, 26, 27, 28, 50, 51, 52, 53, 54, 55, 56, 78, 79, 80, 81, 82, 83, 84 ] },
-			"id": "tea_leaves",
-			"index": 299,
-			"name": "Tea Leaves",
-			"regrow": "1",
-			"seasons": [
-				"spring",
-				"summer",
-				"fall"
-			],
-			"sell": 50,
-			"stages": [
-				10,
-				10,
-				1
-			]
+		"id": "cucumber",
+		"name": "Cucumber",
+		"scythe": false,
+		"regrow": 3,
+		"seasons": [
+		  "summer"
+		],
+		"sell": 90,
+		"stages": [
+		  1,
+		  2,
+		  3,
+		  3,
+		  2
+		],
+		"trellis": true
+	  },
+	  {
+		"buy": 250,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
 		},
-		{
-			"buy": 50,
-			"harvest": {
-				"extra_chance": 0.05,
-				"level_increase": 6,
-				"max": 1,
-				"min": 1
-			},
-			"id": "tomato",
-			"index": 480,
-			"name": "Tomato",
-			"regrow": 4,
-			"seasons": [
-				"summer"
-			],
-			"sell": 60,
-			"stages": [
-				2,
-				2,
-				2,
-				2,
-				3
-			]
+		"id": "money_plant",
+		"name": "Doubloon",
+		"scythe": false,
+		"regrow": 6,
+		"seasons": [
+		  "fall"
+		],
+		"sell": 150,
+		"stages": [
+		  3,
+		  2,
+		  3,
+		  2,
+		  3
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 5000,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
 		},
-		{
-			"buy": 20,
-			"harvest": {},
-			"id": "tulip",
-			"index": 427,
-			"name": "Tulip",
-			"seasons": [
-				"spring"
-			],
-			"sell": 30,
-			"stages": [
-				1,
-				1,
-				2,
-				2
-			]
+		"id": "dragon_fruit",
+		"name": "Dragon Fruit",
+		"scythe": false,
+		"regrow": 1,
+		"seasons": [
+		  "summer"
+		],
+		"sell": 125,
+		"stages": [
+		  9,
+		  9,
+		  9,
+		  9
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 8000,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
 		},
-		{
-			"buy": 40,
-			"harvest": {},
-			"id": "unmilled_rice_unirrigated",
-			"index": 299,
-			"name": "Unmilled Rice (Unirrigated)",
-			"seasons": [
-				"spring"
-			],
-			"sell": 30,
-			"stages": [
-				1,
-				2,
-				2,
-				3
-			]
+		"id": "durian",
+		"name": "Durian",
+		"scythe": false,
+		"regrow": 1,
+		"seasons": [
+		  "summer"
+		],
+		"sell": 200,
+		"stages": [
+		  9,
+		  9,
+		  9,
+		  9
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 10,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
 		},
-		{
-			"buy": 40,
-			"harvest": {},
-			"id": "unmilled_rice_irrigated",
-			"index": 299,
-			"name": "Unmilled Rice (Irrigated)",
-			"seasons": [
-				"spring"
-			],
-			"sell": 30,
-			"stages": [
-				1,
-				1,
-				1,
-				3
-			]
+		"id": "durum",
+		"name": "Durum",
+		"scythe": true,
+		"seasons": [
+		  "fall"
+		],
+		"sell": 25,
+		"stages": [
+		  1,
+		  1,
+		  1,
+		  1
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 20,
+		"harvest": {
+		  "extra_chance": 0.002,
+		  "level_increase": 10,
+		  "max": 2,
+		  "min": 1
 		},
-		{
-			"buy": 0,
-			"harvest": {},
-			"id": "winter_seeds",
-			"index": 478,
-			"name": "Winter Seeds",
-			"seasons": [
-				"winter"
-			],
-			"sell": 95,
-			"stages": [
-				3,
-				4
-			]
+		"id": "eggplant",
+		"index": 488,
+		"name": "Eggplant",
+		"regrow": 5,
+		"seasons": [
+		  "fall"
+		],
+		"sell": 60,
+		"stages": [
+		  1,
+		  1,
+		  1,
+		  1
+		]
+	  },
+	  {
+		"buy": 80,
+		"harvest": {
+		  "extra_chance": 0.1,
+		  "level_increase": 5,
+		  "max": 3,
+		  "min": 2
 		},
-		{
-			"buy": 10,
-			"harvest": {},
-			"id": "wheat",
-			"index": 483,
-			"name": "Wheat",
-			"scythe": true,
-			"seasons": [
-				"summer",
-				"fall"
-			],
-			"sell": 25,
-			"stages": [
-				1,
-				1,
-				1,
-				1
-			]
+		"id": "elderberry",
+		"name": "Elderberry",
+		"scythe": false,
+		"regrow": 4,
+		"seasons": [
+		  "winter"
+		],
+		"sell": 20,
+		"stages": [
+		  1,
+		  2,
+		  2,
+		  2,
+		  2
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 5500,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
 		},
-		{
-			"buy": 60,
-			"harvest": {},
-			"id": "yam",
-			"index": 492,
-			"name": "Yam",
-			"seasons": [
-				"fall"
-			],
-			"sell": 160,
-			"stages": [
-				1,
-				3,
-				3,
-				3
-			]
-		}
+		"id": "eucalyptus",
+		"name": "Eucalyptus Leaves",
+		"scythe": false,
+		"regrow": 1,
+		"seasons": [
+		  "spring"
+		],
+		"sell": 135,
+		"stages": [
+		  9,
+		  9,
+		  9,
+		  9
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 30,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
+		},
+		"id": "fairy_duster",
+		"name": "Fairy Duster",
+		"scythe": false,
+		"seasons": [
+		  "fall"
+		],
+		"sell": 50,
+		"stages": [
+		  1,
+		  2,
+		  3,
+		  1
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 200,
+		"harvest": {},
+		"id": "fairy_rose",
+		"index": 425,
+		"name": "Fairy Rose",
+		"seasons": [
+		  "fall"
+		],
+		"sell": 290,
+		"stages": [
+		  1,
+		  4,
+		  4,
+		  3
+		]
+	  },
+	  {
+		"buy": 175,
+		"harvest": {
+		  "extra_chance": 0.2,
+		  "level_increase": 5,
+		  "max": 2,
+		  "min": 1
+		},
+		"id": "fall_rose",
+		"name": "Fall Rose",
+		"scythe": false,
+		"regrow": 5,
+		"seasons": [
+		  "fall"
+		],
+		"sell": 55,
+		"stages": [
+		  1,
+		  2,
+		  3,
+		  4,
+		  2
+		],
+		"trellis": true
+	  },
+	  {
+		"buy": 20,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
+		},
+		"id": "fennel",
+		"name": "Fennel",
+		"scythe": false,
+		"seasons": [
+		  "fall"
+		],
+		"sell": 35,
+		"stages": [
+		  1,
+		  1,
+		  1,
+		  1
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 4000,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
+		},
+		"id": "fig",
+		"name": "Fig",
+		"scythe": false,
+		"regrow": 1,
+		"seasons": [
+		  "winter"
+		],
+		"sell": 100,
+		"stages": [
+		  9,
+		  9,
+		  9,
+		  9
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 25,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
+		},
+		"id": "fragrant_lilac",
+		"name": "Fragrant Lilac",
+		"scythe": false,
+		"seasons": [
+		  "summer"
+		],
+		"sell": 40,
+		"stages": [
+		  1,
+		  2,
+		  1,
+		  2,
+		  1
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 2500,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
+		},
+		"id": "fragrant_wisteria",
+		"name": "Fragrant Wisteria",
+		"scythe": false,
+		"regrow": 1,
+		"seasons": [
+		  "spring"
+		],
+		"sell": 60,
+		"stages": [
+		  9,
+		  9,
+		  9,
+		  9
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 40,
+		"harvest": {},
+		"id": "garlic",
+		"index": 476,
+		"name": "Garlic",
+		"seasons": [
+		  "spring"
+		],
+		"sell": 60,
+		"stages": [
+		  1,
+		  1,
+		  1,
+		  1
+		]
+	  },
+	  {
+		"buy": 35,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
+		},
+		"id": "ginger",
+		"name": "Ginger",
+		"scythe": false,
+		"seasons": [
+		  "summer"
+		],
+		"sell": 60,
+		"stages": [
+		  1,
+		  2,
+		  2,
+		  2
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 1000,
+		"harvest": {
+		  "extra_chance": 0.2,
+		  "level_increase": 0,
+		  "max": 2,
+		  "min": 1
+		},
+		"id": "ginseng",
+		"name": "Ginseng",
+		"scythe": false,
+		"seasons": [
+		  "spring",
+		  "summer",
+		  "fall",
+		  "winter"
+		],
+		"sell": 2000,
+		"stages": [
+		  5,
+		  5,
+		  9,
+		  10
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 200,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 3,
+		  "min": 2
+		},
+		"id": "gold_leaf",
+		"name": "Gold",
+		"scythe": false,
+		"seasons": [
+		  "fall"
+		],
+		"sell": 25,
+		"stages": [
+		  5,
+		  5,
+		  5,
+		  4
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 80,
+		"harvest": {
+		  "extra_chance": 0.1,
+		  "level_increase": 5,
+		  "max": 3,
+		  "min": 2
+		},
+		"id": "gooseberry",
+		"name": "Gooseberry",
+		"scythe": false,
+		"regrow": 3,
+		"seasons": [
+		  "summer"
+		],
+		"sell": 20,
+		"stages": [
+		  1,
+		  2,
+		  3,
+		  4,
+		  3
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 3500,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
+		},
+		"id": "granny_smith_apple",
+		"name": "Granny Smith Apple",
+		"scythe": false,
+		"regrow": 1,
+		"seasons": [
+		  "fall"
+		],
+		"sell": 100,
+		"stages": [
+		  9,
+		  9,
+		  9,
+		  9
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 60,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 6,
+		  "max": 2,
+		  "min": 1
+		},
+		"id": "grape",
+		"index": 301,
+		"name": "Grape",
+		"regrow": 3,
+		"seasons": [
+		  "fall"
+		],
+		"sell": 80,
+		"stages": [
+		  1,
+		  1,
+		  2,
+		  2,
+		  3
+		],
+		"trellis": true
+	  },
+	  {
+		"buy": 6000,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
+		},
+		"id": "grapefruit",
+		"name": "Grapefruit",
+		"scythe": false,
+		"regrow": 1,
+		"seasons": [
+		  "fall"
+		],
+		"sell": 140,
+		"stages": [
+		  9,
+		  9,
+		  9,
+		  9
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 60,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 6,
+		  "max": 2,
+		  "min": 1
+		},
+		"id": "green_bean",
+		"index": 473,
+		"name": "Green Bean",
+		"regrow": 3,
+		"seasons": [
+		  "spring"
+		],
+		"sell": 40,
+		"stages": [
+		  1,
+		  1,
+		  1,
+		  3,
+		  3
+		],
+		"trellis": true
+	  },
+	  {
+		"buy": 50,
+		"harvest": {
+		  "extra_chance": 0.2,
+		  "level_increase": 5,
+		  "max": 5,
+		  "min": 2
+		},
+		"id": "green_pea",
+		"name": "Green Peas",
+		"scythe": false,
+		"regrow": 3,
+		"seasons": [
+		  "summer"
+		],
+		"sell": 30,
+		"stages": [
+		  1,
+		  2,
+		  2,
+		  2,
+		  1
+		],
+		"trellis": true
+	  },
+	  {
+		"buy": 130,
+		"harvest": {
+		  "extra_chance": 0.2,
+		  "level_increase": 5,
+		  "max": 3,
+		  "min": 1
+		},
+		"id": "habanero",
+		"name": "Habanero",
+		"scythe": false,
+		"regrow": 4,
+		"seasons": [
+		  "fall"
+		],
+		"sell": 120,
+		"stages": [
+		  1,
+		  2,
+		  2,
+		  2,
+		  2
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 20,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
+		},
+		"id": "herbal_lavender",
+		"name": "Herbal Lavender",
+		"scythe": false,
+		"seasons": [
+		  "summer"
+		],
+		"sell": 30,
+		"stages": [
+		  1,
+		  2,
+		  1,
+		  2
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 200,
+		"harvest": {
+		  "extra_chance": 0.1,
+		  "level_increase": 5,
+		  "max": 2,
+		  "min": 1
+		},
+		"id": "honeysuckle",
+		"name": "Honeysuckle",
+		"scythe": false,
+		"regrow": 3,
+		"seasons": [
+		  "spring",
+		  "summer"
+		],
+		"sell": 65,
+		"stages": [
+		  1,
+		  2,
+		  3,
+		  2
+		],
+		"trellis": true
+	  },
+	  {
+		"buy": 60,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 6,
+		  "max": 2,
+		  "min": 1
+		},
+		"id": "hops",
+		"index": 302,
+		"name": "Hops",
+		"regrow": 1,
+		"seasons": [
+		  "summer"
+		],
+		"sell": 25,
+		"stages": [
+		  1,
+		  1,
+		  2,
+		  3,
+		  4
+		],
+		"trellis": true
+	  },
+	  {
+		"buy": 40,
+		"harvest": {
+		  "extra_chance": 0.03,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
+		},
+		"id": "hot_pepper",
+		"index": 482,
+		"name": "Hot Pepper",
+		"regrow": 3,
+		"seasons": [
+		  "summer"
+		],
+		"sell": 40,
+		"stages": [
+		  1,
+		  1,
+		  1,
+		  1
+		]
+	  },
+	  {
+		"buy": 400,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 3,
+		  "min": 2
+		},
+		"id": "iridium_fern",
+		"name": "Iridium",
+		"scythe": false,
+		"seasons": [
+		  "winter"
+		],
+		"sell": 100,
+		"stages": [
+		  6,
+		  6,
+		  6,
+		  6
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 100,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 3,
+		  "min": 1
+		},
+		"id": "iron_leaf",
+		"name": "Iron",
+		"scythe": false,
+		"seasons": [
+		  "summer"
+		],
+		"sell": 10,
+		"stages": [
+		  3,
+		  2,
+		  2,
+		  2,
+		  5
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 130,
+		"harvest": {
+		  "extra_chance": 0.2,
+		  "level_increase": 5,
+		  "max": 3,
+		  "min": 1
+		},
+		"id": "jalapeno",
+		"name": "Jalapeno",
+		"scythe": false,
+		"regrow": 4,
+		"seasons": [
+		  "fall"
+		],
+		"sell": 40,
+		"stages": [
+		  1,
+		  2,
+		  2,
+		  2,
+		  2
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 80,
+		"harvest": {
+		  "extra_chance": 0.1,
+		  "level_increase": 5,
+		  "max": 3,
+		  "min": 2
+		},
+		"id": "juniper",
+		"name": "Juniper Berry",
+		"scythe": false,
+		"regrow": 3,
+		"seasons": [
+		  "winter"
+		],
+		"sell": 15,
+		"stages": [
+		  1,
+		  2,
+		  3,
+		  4,
+		  3
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 70,
+		"harvest": {},
+		"id": "kale",
+		"index": 477,
+		"name": "Kale",
+		"scythe": true,
+		"seasons": [
+		  "spring"
+		],
+		"sell": 110,
+		"stages": [
+		  1,
+		  2,
+		  2,
+		  1
+		]
+	  },
+	  {
+		"buy": 180,
+		"harvest": {
+		  "extra_chance": 0.2,
+		  "level_increase": 5,
+		  "max": 3,
+		  "min": 2
+		},
+		"id": "kidney_bean",
+		"name": "Kidney Bean",
+		"scythe": false,
+		"regrow": 4,
+		"seasons": [
+		  "fall"
+		],
+		"sell": 35,
+		"stages": [
+		  1,
+		  2,
+		  2,
+		  2,
+		  2
+		],
+		"trellis": true
+	  },
+	  {
+		"buy": 300,
+		"harvest": {
+		  "extra_chance": 0.1,
+		  "level_increase": 5,
+		  "max": 2,
+		  "min": 1
+		},
+		"id": "kiwi",
+		"name": "Kiwi",
+		"scythe": false,
+		"regrow": 3,
+		"seasons": [
+		  "summer",
+		  "fall"
+		],
+		"sell": 100,
+		"stages": [
+		  3,
+		  4,
+		  3,
+		  10,
+		  1
+		],
+		"trellis": true
+	  },
+	  {
+		"buy": 2000,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
+		},
+		"id": "lemon",
+		"name": "Lemon",
+		"scythe": false,
+		"regrow": 1,
+		"seasons": [
+		  "spring"
+		],
+		"sell": 50,
+		"stages": [
+		  9,
+		  9,
+		  9,
+		  9
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 55,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
+		},
+		"id": "lettuce",
+		"name": "Lettuce",
+		"scythe": false,
+		"seasons": [
+		  "summer"
+		],
+		"sell": 65,
+		"stages": [
+		  1,
+		  1,
+		  1,
+		  2,
+		  1
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 100,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
+		},
+		"id": "licorice_root",
+		"name": "Licorice Root",
+		"scythe": false,
+		"seasons": [
+		  "spring"
+		],
+		"sell": 135,
+		"stages": [
+		  1,
+		  2,
+		  2,
+		  2,
+		  1
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 2000,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
+		},
+		"id": "lime",
+		"name": "Lime",
+		"scythe": false,
+		"regrow": 1,
+		"seasons": [
+		  "spring"
+		],
+		"sell": 50,
+		"stages": [
+		  9,
+		  9,
+		  9,
+		  9
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 5000,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
+		},
+		"id": "lychee",
+		"name": "Lychee",
+		"scythe": false,
+		"regrow": 1,
+		"seasons": [
+		  "summer"
+		],
+		"sell": 110,
+		"stages": [
+		  9,
+		  9,
+		  9,
+		  9
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 100,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
+		},
+		"id": "maguey",
+		"name": "Maguey",
+		"scythe": false,
+		"seasons": [
+		  "spring",
+		  "summer"
+		],
+		"sell": 170,
+		"stages": [
+		  1,
+		  2,
+		  3,
+		  2
+		],
+		"trellis": false
+	  },
+      {
+        "buy": 2250,
+        "harvest": {
+          "extra_chance": 0.0,
+          "level_increase": 5,
+          "max": 1,
+          "min": 1
+        },
+        "id": "mango",
+        "name": "Mango",
+        "scythe": false,
+        "regrow": 1,
+        "seasons": [
+			"spring",
+			"summer",
+			"fall",
+			"winter"
+        ],
+        "sell": 130,
+         "stages": [
+          9,
+          9,
+          9,
+          9
+        ],
+        "trellis": false
+      },		
+	  {
+		"buy": 4000,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
+		},
+		"id": "melaleuca",
+		"name": "Melaleuca Leaves",
+		"scythe": false,
+		"regrow": 1,
+		"seasons": [
+		  "spring"
+		],
+		"sell": 100,
+		"stages": [
+		  9,
+		  9,
+		  9,
+		  9
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 80,
+		"harvest": {},
+		"id": "melon",
+		"index": 479,
+		"name": "Melon",
+		"seasons": [
+		  "summer"
+		],
+		"sell": 250,
+		"stages": [
+		  1,
+		  2,
+		  3,
+		  3,
+		  3
+		]
+	  },
+	  {
+		"buy": 30,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 2,
+		  "min": 2
+		},
+		"id": "mint",
+		"name": "Mint",
+		"scythe": false,
+		"seasons": [
+		  "winter"
+		],
+		"sell": 25,
+		"stages": [
+		  1,
+		  1,
+		  1,
+		  1
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 80,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
+		},
+		"id": "muskmelon",
+		"name": "Muskmelon",
+		"scythe": false,
+		"seasons": [
+		  "spring"
+		],
+		"sell": 180,
+		"stages": [
+		  2,
+		  2,
+		  2,
+		  2
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 80,
+		"harvest": {
+		  "extra_chance": 0.1,
+		  "level_increase": 5,
+		  "max": 3,
+		  "min": 2
+		},
+		"id": "navy_bean",
+		"name": "Navy Bean",
+		"scythe": false,
+		"regrow": 3,
+		"seasons": [
+		  "summer"
+		],
+		"sell": 15,
+		"stages": [
+		  1,
+		  2,
+		  2,
+		  2,
+		  2
+		],
+		"trellis": true
+	  },
+	  {
+		"buy": 10,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
+		},
+		"id": "oat",
+		"name": "Oat",
+		"scythe": true,
+		"seasons": [
+		  "fall"
+		],
+		"sell": 25,
+		"stages": [
+		  1,
+		  1,
+		  1,
+		  1
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 160,
+		"harvest": {
+		  "extra_chance": 0.2,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
+		},
+		"id": "okra",
+		"name": "Okra",
+		"scythe": false,
+		"regrow": 4,
+		"seasons": [
+		  "summer",
+		  "fall"
+		],
+		"sell": 60,
+		"stages": [
+		  1,
+		  2,
+		  2,
+		  2,
+		  2
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 2000,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
+		},
+		"id": "olive",
+		"name": "Olive",
+		"scythe": false,
+		"regrow": 1,
+		"seasons": [
+		  "fall"
+		],
+		"sell": 50,
+		"stages": [
+		  9,
+		  9,
+		  9,
+		  9
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 80,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
+		},
+		"id": "onion",
+		"name": "Onion",
+		"scythe": false,
+		"seasons": [
+		  "spring"
+		],
+		"sell": 115,
+		"stages": [
+		  1,
+		  2,
+		  3,
+		  2
+		],
+		"trellis": false
+	  },
+      {
+        "buy": 4000,
+        "harvest": {
+          "extra_chance": 0.0,
+          "level_increase": 5,
+          "max": 1,
+          "min": 1
+        },
+        "id": "orange",
+        "name": "Orange",
+        "scythe": false,
+        "regrow": 1,
+        "seasons": [
+          "summer"
+        ],
+        "sell": 100,
+         "stages": [
+          9,
+          9,
+          9,
+          9
+        ],
+        "trellis": false
+      },		
+	  {
+		"buy": 30,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
+		},
+		"id": "oregano",
+		"name": "Oregano",
+		"scythe": false,
+		"seasons": [
+		  "summer"
+		],
+		"sell": 50,
+		"stages": [
+		  1,
+		  1,
+		  1,
+		  1
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 5500,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
+		},
+		"id": "papaya",
+		"name": "Papaya",
+		"scythe": false,
+		"regrow": 1,
+		"seasons": [
+		  "summer"
+		],
+		"sell": 135,
+		"stages": [
+		  9,
+		  9,
+		  9,
+		  9
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 25,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
+		},
+		"id": "parsley",
+		"name": "Parsley",
+		"scythe": false,
+		"seasons": [
+		  "spring"
+		],
+		"sell": 45,
+		"stages": [
+		  1,
+		  1,
+		  1,
+		  1
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 20,
+		"harvest": {},
+		"id": "parsnip",
+		"index": 472,
+		"name": "Parsnip",
+		"seasons": [
+		  "spring"
+		],
+		"sell": 35,
+		"stages": [
+		  1,
+		  1,
+		  1,
+		  1
+		]
+	  },
+	  {
+		"buy": 90,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
+		},
+		"id": "passion_flower",
+		"name": "Passion Flower",
+		"scythe": false,
+		"seasons": [
+		  "summer"
+		],
+		"sell": 160,
+		"stages": [
+		  1,
+		  2,
+		  3,
+		  2
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 130,
+		"harvest": {
+		  "extra_chance": 0.1,
+		  "level_increase": 5,
+		  "max": 3,
+		  "min": 1
+		},
+		"id": "passion_fruit",
+		"name": "Passion Fruit",
+		"scythe": false,
+		"regrow": 5,
+		"seasons": [
+		  "spring"
+		],
+		"sell": 95,
+		"stages": [
+		  1,
+		  2,
+		  3,
+		  4,
+		  2
+		],
+		"trellis": true
+	  },
+      {
+        "buy": 6000,
+        "harvest": {
+          "extra_chance": 0.0,
+          "level_increase": 5,
+          "max": 1,
+          "min": 1
+        },
+        "id": "peach",
+        "name": "Peach",
+        "scythe": false,
+        "regrow": 1,
+        "seasons": [
+          "summer"
+        ],
+        "sell": 140,
+         "stages": [
+          9,
+          9,
+          9,
+          9
+        ],
+        "trellis": false
+      },		
+	  {
+		"buy": 60,
+		"harvest": {
+		  "extra_chance": 0.3,
+		  "level_increase": 5,
+		  "max": 3,
+		  "min": 1
+		},
+		"id": "peanut",
+		"name": "Peanut",
+		"scythe": false,
+		"seasons": [
+		  "fall"
+		],
+		"sell": 75,
+		"stages": [
+		  1,
+		  2,
+		  1,
+		  2
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 5500,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
+		},
+		"id": "pear",
+		"name": "Pear",
+		"scythe": false,
+		"regrow": 1,
+		"seasons": [
+		  "winter"
+		],
+		"sell": 135,
+		"stages": [
+		  9,
+		  9,
+		  9,
+		  9
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 5000,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
+		},
+		"id": "pecan",
+		"name": "Pecan",
+		"scythe": false,
+		"regrow": 1,
+		"seasons": [
+		  "fall"
+		],
+		"sell": 125,
+		"stages": [
+		  9,
+		  9,
+		  9,
+		  9
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 30,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
+		},
+		"id": "perilla",
+		"name": "Perilla Leaf",
+		"scythe": false,
+		"seasons": [
+		  "summer"
+		],
+		"sell": 50,
+		"stages": [
+		  1,
+		  1,
+		  1,
+		  1
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 7000,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
+		},
+		"id": "persimmon",
+		"name": "Persimmon",
+		"scythe": false,
+		"regrow": 1,
+		"seasons": [
+		  "winter"
+		],
+		"sell": 155,
+		"stages": [
+		  9,
+		  9,
+		  9,
+		  9
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 20,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
+		},
+		"id": "pink_cat",
+		"name": "Pink Cat",
+		"scythe": false,
+		"seasons": [
+		  "spring"
+		],
+		"sell": 35,
+		"stages": [
+		  1,
+		  2,
+		  2,
+		  1
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 500,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
+		},
+		"id": "pitcher_plant",
+		"name": "Pitcher Plant",
+		"scythe": false,
+		"regrow": 5,
+		"seasons": [
+		  "spring"
+		],
+		"sell": 350,
+		"stages": [
+		  3,
+		  3,
+		  2,
+		  2,
+		  4
+		],
+		"trellis": true
+	  },
+      {
+        "buy": 6000,
+        "harvest": {
+          "extra_chance": 0.0,
+          "level_increase": 5,
+          "max": 1,
+          "min": 1
+        },
+        "id": "pomegranate",
+        "name": "Pomegranate",
+        "scythe": false,
+        "regrow": 1,
+        "seasons": [
+          "fall"
+        ],
+        "sell": 140,
+         "stages": [
+          9,
+          9,
+          9,
+          9
+        ],
+        "trellis": false
+      },		
+	  {
+		"buy": 3400,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
+		},
+		"id": "pomelo",
+		"name": "Pomelo",
+		"scythe": false,
+		"regrow": 1,
+		"seasons": [
+		  "winter"
+		],
+		"sell": 80,
+		"stages": [
+		  9,
+		  9,
+		  9,
+		  9
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 100,
+		"harvest": {},
+		"id": "poppy",
+		"index": 453,
+		"name": "Poppy",
+		"seasons": [
+		  "summer"
+		],
+		"sell": 140,
+		"stages": [
+		  1,
+		  2,
+		  2,
+		  2
+		]
+	  },
+	  {
+		"buy": 50,
+		"harvest": {
+		  "extra_chance": 0.2,
+		  "level_increase": 8,
+		  "max": 2,
+		  "min": 1
+		},
+		"id": "potato",
+		"index": 475,
+		"name": "Potato",
+		"seasons": [
+		  "spring"
+		],
+		"sell": 80,
+		"stages": [
+		  1,
+		  1,
+		  1,
+		  2,
+		  1
+		]
+	  },
+	  {
+		"buy": 100,
+		"harvest": {},
+		"id": "pumpkin",
+		"index": 490,
+		"name": "Pumpkin",
+		"seasons": [
+		  "fall"
+		],
+		"sell": 320,
+		"stages": [
+		  1,
+		  2,
+		  3,
+		  4,
+		  3
+		]
+	  },
+	  {
+		"buy": 40,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
+		},
+		"id": "purple_coneflower",
+		"name": "Purple Coneflower",
+		"scythe": false,
+		"seasons": [
+		  "fall"
+		],
+		"sell": 75,
+		"stages": [
+		  1,
+		  2,
+		  3,
+		  3
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 20,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
+		},
+		"id": "quinoa",
+		"name": "Quinoa",
+		"scythe": false,
+		"seasons": [
+		  "summer"
+		],
+		"sell": 30,
+		"stages": [
+		  1,
+		  2,
+		  1,
+		  2
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 40,
+		"harvest": {},
+		"id": "radish",
+		"index": 484,
+		"name": "Radish",
+		"seasons": [
+		  "summer"
+		],
+		"sell": 90,
+		"stages": [
+		  2,
+		  1,
+		  2,
+		  1
+		]
+	  },
+	  {
+		"buy": 3000,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
+		},
+		"id": "rafflesia",
+		"name": "Rafflesia",
+		"scythe": false,
+		"seasons": [
+		  "spring",
+		  "summer",
+		  "fall"
+		],
+		"sell": 13000,
+		"stages": [
+		  19,
+		  18,
+		  19
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 100,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 2,
+		  "min": 2
+		},
+		"id": "rapeseed",
+		"name": "Rapeseed Flower",
+		"scythe": true,
+		"seasons": [
+		  "spring",
+		  "summer"
+		],
+		"sell": 50,
+		"stages": [
+		  1,
+		  2,
+		  1,
+		  2,
+		  2
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 60,
+		"harvest": {
+		  "extra_chance": 0.2,
+		  "level_increase": 5,
+		  "max": 5,
+		  "min": 3
+		},
+		"id": "raspberry",
+		"name": "Raspberry",
+		"scythe": false,
+		"regrow": 4,
+		"seasons": [
+		  "summer"
+		],
+		"sell": 30,
+		"stages": [
+		  1,
+		  2,
+		  2,
+		  2,
+		  2
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 100,
+		"harvest": {},
+		"id": "red_cabbage",
+		"index": 485,
+		"name": "Red Cabbage",
+		"seasons": [
+		  "summer"
+		],
+		"sell": 260,
+		"stages": [
+		  2,
+		  1,
+		  2,
+		  2,
+		  2
+		]
+	  },
+	  {
+		"buy": 80,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
+		},
+		"id": "red_onion",
+		"name": "Red Onion",
+		"scythe": false,
+		"seasons": [
+		  "spring"
+		],
+		"sell": 115,
+		"stages": [
+		  1,
+		  2,
+		  3,
+		  2
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 100,
+		"harvest": {},
+		"id": "rhubarb",
+		"index": 478,
+		"name": "Rhubarb",
+		"seasons": [
+		  "spring"
+		],
+		"sell": 220,
+		"stages": [
+		  2,
+		  2,
+		  2,
+		  3,
+		  4
+		]
+	  },
+	  {
+		"buy": 175,
+		"harvest": {
+		  "extra_chance": 0.2,
+		  "level_increase": 5,
+		  "max": 2,
+		  "min": 1
+		},
+		"id": "rose",
+		"name": "Rose",
+		"scythe": false,
+		"regrow": 5,
+		"seasons": [
+		  "spring",
+		  "summer",
+		  "fall"
+		],
+		"sell": 55,
+		"stages": [
+		  1,
+		  2,
+		  3,
+		  4,
+		  2
+		],
+		"trellis": true
+	  },
+	  {
+		"buy": 30,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
+		},
+		"id": "rosemary",
+		"name": "Rosemary",
+		"scythe": false,
+		"seasons": [
+		  "fall"
+		],
+		"sell": 75,
+		"stages": [
+		  1,
+		  2,
+		  2,
+		  2
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 40,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
+		},
+		"id": "sage",
+		"name": "Sage",
+		"scythe": false,
+		"seasons": [
+		  "fall"
+		],
+		"sell": 70,
+		"stages": [
+		  1,
+		  1,
+		  1,
+		  1
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 30,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
+		},
+		"id": "shaded_violet",
+		"name": "Shaded Violet",
+		"scythe": false,
+		"seasons": [
+		  "spring"
+		],
+		"sell": 45,
+		"stages": [
+		  1,
+		  1,
+		  3,
+		  3
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 80,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
+		},
+		"id": "shallot",
+		"name": "Shallot",
+		"scythe": false,
+		"seasons": [
+		  "spring"
+		],
+		"sell": 115,
+		"stages": [
+		  1,
+		  2,
+		  3,
+		  2
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 500,
+		"harvest": {
+		  "extra_chance": 0.1,
+		  "level_increase": 5,
+		  "max": 3,
+		  "min": 2
+		},
+		"id": "shiitake_mushroom",
+		"name": "Shiitake Mushroom",
+		"scythe": false,
+		"seasons": [
+		  "spring",
+		  "fall"
+		],
+		"sell": 180,
+		"stages": [
+		  3,
+		  3,
+		  3
+		],
+		"trellis": true
+	  },
+	  {
+		"buy": 120,
+		"harvest": {
+		  "extra_chance": 0.2,
+		  "level_increase": 5,
+		  "max": 3,
+		  "min": 1
+		},
+		"id": "soybean",
+		"name": "Soybean",
+		"scythe": false,
+		"regrow": 5,
+		"seasons": [
+		  "fall"
+		],
+		"sell": 80,
+		"stages": [
+		  1,
+		  2,
+		  2,
+		  2,
+		  2
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 15,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
+		},
+		"id": "spinach",
+		"name": "Spinach",
+		"scythe": false,
+		"seasons": [
+		  "spring",
+		  "fall"
+		],
+		"sell": 35,
+		"stages": [
+		  1,
+		  1,
+		  1
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 175,
+		"harvest": {
+		  "extra_chance": 0.2,
+		  "level_increase": 5,
+		  "max": 2,
+		  "min": 1
+		},
+		"id": "spring_rose",
+		"name": "Spring Rose",
+		"scythe": false,
+		"regrow": 5,
+		"seasons": [
+		  "spring"
+		],
+		"sell": 55,
+		"stages": [
+		  1,
+		  2,
+		  3,
+		  4,
+		  2
+		],
+		"trellis": true
+	  },
+	  {
+		"buy": 400,
+		"harvest": {},
+		"id": "starfruit",
+		"index": 486,
+		"name": "Starfruit",
+		"seasons": [
+		  "summer"
+		],
+		"sell": 750,
+		"stages": [
+		  2,
+		  3,
+		  2,
+		  3,
+		  3
+		]
+	  },
+	  {
+		"buy": 100,
+		"harvest": {
+		  "extra_chance": 0.02,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
+		},
+		"id": "strawberry",
+		"index": 745,
+		"name": "Strawberry",
+		"regrow": 4,
+		"seasons": [
+		  "spring"
+		],
+		"sell": 120,
+		"stages": [
+		  1,
+		  1,
+		  2,
+		  2,
+		  2
+		]
+	  },
+	  {
+		"buy": 100,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
+		},
+		"id": "sugar_beet",
+		"name": "Sugar Beet",
+		"scythe": false,
+		"seasons": [
+		  "spring"
+		],
+		"sell": 180,
+		"stages": [
+		  1,
+		  1,
+		  2,
+		  3,
+		  1
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 110,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
+		},
+		"id": "sugar_cane",
+		"name": "Sugar Cane",
+		"scythe": true,
+		"seasons": [
+		  "summer"
+		],
+		"sell": 230,
+		"stages": [
+		  1,
+		  2,
+		  2,
+		  2,
+		  2
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 500,
+		"harvest": {
+		  "extra_chance": 0.1,
+		  "level_increase": 5,
+		  "max": 3,
+		  "min": 2
+		},
+		"id": "sulfur_shelf_mushroom",
+		"name": "Sulfur Shelf Mushroom",
+		"scythe": false,
+		"seasons": [
+		  "summer",
+		  "fall"
+		],
+		"sell": 180,
+		"stages": [
+		  3,
+		  3,
+		  3
+		],
+		"trellis": true
+	  },
+	  {
+		"buy": 175,
+		"harvest": {
+		  "extra_chance": 0.2,
+		  "level_increase": 5,
+		  "max": 2,
+		  "min": 1
+		},
+		"id": "summer_rose",
+		"name": "Summer Rose",
+		"scythe": false,
+		"regrow": 5,
+		"seasons": [
+		  "summer"
+		],
+		"sell": 55,
+		"stages": [
+		  1,
+		  2,
+		  3,
+		  4,
+		  2
+		],
+		"trellis": true
+	  },
+	  {
+		"buy": 50,
+		"harvest": {},
+		"id": "summer_spangle",
+		"index": 455,
+		"name": "Summer Spangle",
+		"seasons": [
+		  "summer"
+		],
+		"sell": 90,
+		"stages": [
+		  1,
+		  2,
+		  3,
+		  2
+		]
+	  },
+	  {
+		"buy": 125,
+		"harvest": {},
+		"id": "sunflower",
+		"index": 431,
+		"name": "Sunflower",
+		"note": "Cheapest at JojaMart",
+		"seasons": [
+		  "summer",
+		  "fall"
+		],
+		"sell": 80,
+		"stages": [
+		  1,
+		  2,
+		  3,
+		  2
+		]
+	  },
+	  {
+		"buy": 450,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
+		},
+		"id": "sweet_canary_melon",
+		"name": "Sweet Canary Melon",
+		"scythe": false,
+		"regrow": 4,
+		"seasons": [
+		  "spring"
+		],
+		"sell": 225,
+		"stages": [
+		  1,
+		  2,
+		  3,
+		  2,
+		  3
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 1000,
+		"harvest": {},
+		"id": "sweet_gem_berry",
+		"index": 347,
+		"name": "Sweet Gem Berry",
+		"seasons": [
+		  "fall"
+		],
+		"sell": 3000,
+		"stages": [
+		  2,
+		  4,
+		  6,
+		  6,
+		  6
+		]
+	  },
+	  {
+		"buy": 40,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 3,
+		  "min": 1
+		},
+		"id": "sweet_jasmine",
+		"name": "Sweet Jasmine",
+		"scythe": false,
+		"seasons": [
+		  "fall"
+		],
+		"sell": 95,
+		"stages": [
+		  1,
+		  2,
+		  2,
+		  2
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 90,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
+		},
+		"id": "sweet_potato",
+		"name": "Sweet Potato",
+		"scythe": false,
+		"seasons": [
+		  "fall"
+		],
+		"sell": 120,
+		"stages": [
+		  1,
+		  2,
+		  2,
+		  2,
+		  1
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 130,
+		"harvest": {
+		  "extra_chance": 0.2,
+		  "level_increase": 5,
+		  "max": 3,
+		  "min": 1
+		},
+		"id": "tabasco_pepper",
+		"name": "Tabasco Pepper",
+		"scythe": false,
+		"regrow": 4,
+		"seasons": [
+		  "fall"
+		],
+		"sell": 80,
+		"stages": [
+		  1,
+		  2,
+		  2,
+		  2,
+		  2
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 30,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
+		},
+		"id": "thyme",
+		"name": "Thyme",
+		"scythe": false,
+		"seasons": [
+		  "fall"
+		],
+		"sell": 55,
+		"stages": [
+		  1,
+		  1,
+		  1,
+		  1
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 50,
+		"harvest": {
+		  "extra_chance": 0.05,
+		  "level_increase": 6,
+		  "max": 1,
+		  "min": 1
+		},
+		"id": "tomato",
+		"index": 480,
+		"name": "Tomato",
+		"regrow": 4,
+		"seasons": [
+		  "summer"
+		],
+		"sell": 60,
+		"stages": [
+		  2,
+		  2,
+		  2,
+		  2,
+		  3
+		]
+	  },
+	  {
+		"buy": 20,
+		"harvest": {},
+		"id": "tulip",
+		"index": 427,
+		"name": "Tulip",
+		"seasons": [
+		  "spring"
+		],
+		"sell": 30,
+		"stages": [
+		  1,
+		  1,
+		  2,
+		  2
+		]
+	  },
+	  {
+		"buy": 2000,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
+		},
+		"id": "ume",
+		"name": "Ume",
+		"scythe": false,
+		"regrow": 1,
+		"seasons": [
+		  "summer"
+		],
+		"sell": 50,
+		"stages": [
+		  9,
+		  9,
+		  9,
+		  9
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 5000,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
+		},
+		"id": "vanilla",
+		"name": "Vanilla",
+		"scythe": false,
+		"regrow": 1,
+		"seasons": [
+		  "spring"
+		],
+		"sell": 200,
+		"stages": [
+		  9,
+		  9,
+		  9,
+		  9
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 3750,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
+		},
+		"id": "walnut",
+		"name": "Walnut",
+		"scythe": false,
+		"regrow": 1,
+		"seasons": [
+		  "fall"
+		],
+		"sell": 90,
+		"stages": [
+		  9,
+		  9,
+		  9,
+		  9
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 100,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
+		},
+		"id": "wasabi",
+		"name": "Wasabi Root",
+		"scythe": false,
+		"seasons": [
+		  "summer"
+		],
+		"sell": 165,
+		"stages": [
+		  1,
+		  2,
+		  3,
+		  2
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 250,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
+		},
+		"id": "watermelon",
+		"name": "Watermelon",
+		"scythe": false,
+		"regrow": 5,
+		"seasons": [
+		  "fall"
+		],
+		"sell": 175,
+		"stages": [
+		  1,
+		  2,
+		  3,
+		  4,
+		  4
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 10,
+		"harvest": {},
+		"id": "wheat",
+		"index": 483,
+		"name": "Wheat",
+		"scythe": true,
+		"seasons": [
+		  "summer",
+		  "fall"
+		],
+		"sell": 25,
+		"stages": [
+		  1,
+		  1,
+		  1,
+		  1
+		]
+	  },
+	  {
+		"buy": 60,
+		"harvest": {},
+		"id": "yam",
+		"index": 492,
+		"name": "Yam",
+		"seasons": [
+		  "fall"
+		],
+		"sell": 160,
+		"stages": [
+		  1,
+		  2,
+		  3,
+		  3
+		]
+	  },
+	  {
+		"buy": 3000,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
+		},
+		"id": "ylang_ylang",
+		"name": "Ylang Ylang",
+		"scythe": false,
+		"regrow": 1,
+		"seasons": [
+		  "summer"
+		],
+		"sell": 75,
+		"stages": [
+		  9,
+		  9,
+		  9,
+		  9
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 2000,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
+		},
+		"id": "yuzu",
+		"name": "Yuzu",
+		"scythe": false,
+		"regrow": 1,
+		"seasons": [
+		  "winter"
+		],
+		"sell": 50,
+		"stages": [
+		  9,
+		  9,
+		  9,
+		  9
+		],
+		"trellis": false
+	  },
+	  {
+		"buy": 225,
+		"harvest": {
+		  "extra_chance": 0.0,
+		  "level_increase": 5,
+		  "max": 1,
+		  "min": 1
+		},
+		"id": "zucchini",
+		"name": "Zucchini",
+		"scythe": false,
+		"regrow": 2,
+		"seasons": [
+		  "summer"
+		],
+		"sell": 175,
+		"stages": [
+		  3,
+		  2,
+		  3,
+		  2,
+		  4
+		],
+		"trellis": false
+	  }
+	  ,
+      {
+        "buy": 0,
+        "harvest": {
+          "extra_chance": 0.0,
+          "level_increase": 5,
+          "max": 1,
+          "min": 1
+        },
+        "id": "wild_spring",
+        "name": "Wild Spring",
+        "seasons": [
+          "spring"
+        ],
+        "sell": 40,
+        "stages": [
+          3,
+          4
+        ],
+        "trellis": false
+      },
+      {
+        "buy": 0,
+        "harvest": {
+          "extra_chance": 0.0,
+          "level_increase": 5,
+          "max": 1,
+          "min": 1
+        },
+        "id": "wild_summer",
+        "name": "Wild Summer",
+        "seasons": [
+          "summer"
+        ],
+        "sell": 40,
+        "stages": [
+          3,
+          4
+        ],
+        "trellis": false
+      },
+      {
+        "buy": 0,
+        "harvest": {
+          "extra_chance": 0.0,
+          "level_increase": 5,
+          "max": 1,
+          "min": 1
+        },
+        "id": "wild_fall",
+        "name": "Wild Fall",
+        "seasons": [
+          "fall"
+        ],
+        "sell": 40,
+        "stages": [
+          3,
+          4
+        ],
+        "trellis": false
+      },
+      {
+        "buy": 0,
+        "harvest": {
+          "extra_chance": 0.0,
+          "level_increase": 5,
+          "max": 1,
+          "min": 1
+        },
+        "id": "wild_winter",
+        "name": "Wild Winter",
+        "seasons": [
+          "winter"
+        ],
+        "sell": 40,
+        "stages": [
+          3,
+          4
+        ],
+        "trellis": false
+      },
+      {
+        "buy": 0,
+        "harvest": {
+          "extra_chance": 0.0,
+          "level_increase": 5,
+          "max": 1,
+          "min": 1
+        },
+        "id": "bee_house",
+        "name": "Bee House",
+        "regrow": 2,
+        "seasons": [
+            "spring",
+            "summer",
+            "fall",
+            "winter"
+        ],
+        "sell": 0,
+        "stages": [
+          3
+        ],
+        "trellis": false
+      },
+      {
+        "buy": 0,
+        "harvest": {
+          "extra_chance": 0.0,
+          "level_increase": 5,
+          "max": 1,
+          "min": 1
+        },
+        "id": "cask_base_cheese",
+        "name": "Cask - Base - Cheese",
+        "seasons": [
+            "spring",
+            "summer",
+            "fall",
+            "winter"
+        ],
+        "sell": 0,
+        "stages": [
+          3.75,
+          5.5,
+          8.75
+        ],
+        "trellis": false
+      },
+      {
+        "buy": 0,
+        "harvest": {
+          "extra_chance": 0.0,
+          "level_increase": 5,
+          "max": 1,
+          "min": 1
+        },
+        "id": "cask_base_pale_ale",
+        "name": "Cask - Base - Pale Ale",
+        "seasons": [
+            "spring",
+            "summer",
+            "fall",
+            "winter"
+        ],
+        "sell": 0,
+        "stages": [
+          11.25,
+          10.5,
+          21.25
+        ],
+        "trellis": false
+      },
+      {
+        "buy": 0,
+        "harvest": {
+          "extra_chance": 0.0,
+          "level_increase": 5,
+          "max": 1,
+          "min": 1
+        },
+        "id": "cask_base_wine",
+        "name": "Cask - Base - Wine",
+        "seasons": [
+            "spring",
+            "summer",
+            "fall",
+            "winter"
+        ],
+        "sell": 0,
+        "stages": [
+          17.5,
+          17.5,
+          30
+        ],
+        "trellis": false
+      },
+      {
+        "buy": 0,
+        "harvest": {
+          "extra_chance": 0.0,
+          "level_increase": 5,
+          "max": 1,
+          "min": 1
+        },
+        "id": "cask_base_other",
+        "name": "Cask - Base - Other",
+        "seasons": [
+            "spring",
+            "summer",
+            "fall",
+            "winter"
+        ],
+        "sell": 0,
+        "stages": [
+          8.75,
+          8.75,
+          17.5
+        ],
+        "trellis": false
+      },
+      {
+        "buy": 0,
+        "harvest": {
+          "extra_chance": 0.0,
+          "level_increase": 5,
+          "max": 1,
+          "min": 1
+        },
+        "id": "cask_silver_cheese",
+        "name": "Cask - Silver - Cheese",
+        "seasons": [
+            "spring",
+            "summer",
+            "fall",
+            "winter"
+        ],
+        "sell": 0,
+        "stages": [
+          5.25,
+          8.75
+        ],
+        "trellis": false
+      },
+      {
+        "buy": 0,
+        "harvest": {
+          "extra_chance": 0.0,
+          "level_increase": 5,
+          "max": 1,
+          "min": 1
+        },
+        "id": "cask_silver_pale_ale",
+        "name": "Cask - Silver - Pale Ale",
+        "seasons": [
+            "spring",
+            "summer",
+            "fall",
+            "winter"
+        ],
+        "sell": 0,
+        "stages": [
+          10,
+          21
+        ],
+        "trellis": false
+      },
+      {
+        "buy": 0,
+        "harvest": {
+          "extra_chance": 0.0,
+          "level_increase": 5,
+          "max": 1,
+          "min": 1
+        },
+        "id": "cask_silver_wine",
+        "name": "Cask - Silver - Wine",
+        "seasons": [
+            "spring",
+            "summer",
+            "fall",
+            "winter"
+        ],
+        "sell": 0,
+        "stages": [
+          17.5,
+          30.5
+        ],
+        "trellis": false
+      },
+      {
+        "buy": 0,
+        "harvest": {
+          "extra_chance": 0.0,
+          "level_increase": 5,
+          "max": 1,
+          "min": 1
+        },
+        "id": "cask_silver_other",
+        "name": "Cask - Silver - Other",
+        "seasons": [
+            "spring",
+            "summer",
+            "fall",
+            "winter"
+        ],
+        "sell": 0,
+        "stages": [
+		9.5,
+		17.5
+        ],
+        "trellis": false
+      },
+      {
+        "buy": 0,
+        "harvest": {
+          "extra_chance": 0.0,
+          "level_increase": 5,
+          "max": 1,
+          "min": 1
+        },
+        "id": "cask_gold_cheese",
+        "name": "Cask - Gold - Cheese",
+        "seasons": [
+            "spring",
+            "summer",
+            "fall",
+            "winter"
+        ],
+        "sell": 0,
+        "stages": [
+          9
+        ],
+        "trellis": false
+      },
+      {
+        "buy": 0,
+        "harvest": {
+          "extra_chance": 0.0,
+          "level_increase": 5,
+          "max": 1,
+          "min": 1
+        },
+        "id": "cask_gold_pale_ale",
+        "name": "Cask - Gold - Pale Ale",
+        "seasons": [
+            "spring",
+            "summer",
+            "fall",
+            "winter"
+        ],
+        "sell": 0,
+        "stages": [
+          20
+        ],
+        "trellis": false
+      },
+      {
+        "buy": 0,
+        "harvest": {
+          "extra_chance": 0.0,
+          "level_increase": 5,
+          "max": 1,
+          "min": 1
+        },
+        "id": "cask_gold_wine",
+        "name": "Cask - Gold - Wine",
+        "seasons": [
+            "spring",
+            "summer",
+            "fall",
+            "winter"
+        ],
+        "sell": 0,
+        "stages": [
+          31
+        ],
+        "trellis": false
+      },
+      {
+        "buy": 0,
+        "harvest": {
+          "extra_chance": 0.0,
+          "level_increase": 5,
+          "max": 1,
+          "min": 1
+        },
+        "id": "cask_gold_other",
+        "name": "Cask - Gold - Other",
+        "seasons": [
+            "spring",
+            "summer",
+            "fall",
+            "winter"
+        ],
+        "sell": 0,
+        "stages": [
+          17
+        ],
+        "trellis": false
+      },
+      {
+        "buy": 0,
+        "harvest": {
+          "extra_chance": 0.0,
+          "level_increase": 5,
+          "max": 1,
+          "min": 1
+        },
+        "id": "keg_beer",
+        "name": "Keg - Beer",
+        "seasons": [
+            "spring",
+            "summer",
+            "fall",
+            "winter"
+        ],
+        "sell": 0,
+        "stages": [
+          2
+        ],
+        "trellis": false
+      },
+      {
+        "buy": 0,
+        "harvest": {
+          "extra_chance": 0.0,
+          "level_increase": 5,
+          "max": 1,
+          "min": 1
+        },
+        "id": "keg_juice",
+        "name": "Keg - Juice",
+        "seasons": [
+            "spring",
+            "summer",
+            "fall",
+            "winter"
+        ],
+        "sell": 0,
+        "stages": [
+          5
+        ],
+        "trellis": false
+      },
+      {
+        "buy": 0,
+        "harvest": {
+          "extra_chance": 0.0,
+          "level_increase": 5,
+          "max": 1,
+          "min": 1
+        },
+        "id": "keg_wine",
+        "name": "Keg - Wine",
+        "seasons": [
+            "spring",
+            "summer",
+            "fall",
+            "winter"
+        ],
+        "sell": 0,
+        "stages": [
+          8
+        ],
+        "trellis": false
+      },
+      {
+        "buy": 0,
+        "harvest": {
+          "extra_chance": 0.0,
+          "level_increase": 5,
+          "max": 1,
+          "min": 1
+        },
+        "id": "preserves_caviar",
+        "name": "Preserves - Caviar",
+        "seasons": [
+            "spring",
+            "summer",
+            "fall",
+            "winter"
+        ],
+        "sell": 0,
+        "stages": [
+          5
+        ],
+        "trellis": false
+      },
+      {
+        "buy": 0,
+        "harvest": {
+          "extra_chance": 0.0,
+          "level_increase": 5,
+          "max": 1,
+          "min": 1
+        },
+        "id": "preserves_other",
+        "name": "Preserves - Other",
+        "seasons": [
+            "spring",
+            "summer",
+            "fall",
+            "winter"
+        ],
+        "sell": 0,
+        "stages": [
+          4
+        ],
+        "trellis": false
+      },
+      {
+        "buy": 0,
+        "harvest": {
+          "extra_chance": 0.0,
+          "level_increase": 5,
+          "max": 1,
+          "min": 1
+        },
+        "id": "smoker",
+        "name": "Smoker",
+        "seasons": [
+            "spring",
+            "summer",
+            "fall",
+            "winter"
+        ],
+        "sell": 0,
+        "stages": [
+          4
+        ],
+        "trellis": false
+      },
+      {
+        "buy": 0,
+        "harvest": {
+          "extra_chance": 0.0,
+          "level_increase": 5,
+          "max": 1,
+          "min": 1
+        },
+        "id": "tapper_maple",
+        "name": "Tapper - Maple",
+        "regrow": 5,
+        "seasons": [
+            "spring",
+            "summer",
+            "fall",
+            "winter"
+        ],
+        "sell": 0,
+        "stages": [
+          7
+        ],
+        "trellis": false
+      },
+      {
+        "buy": 0,
+        "harvest": {
+          "extra_chance": 0.0,
+          "level_increase": 5,
+          "max": 1,
+          "min": 1
+        }, 
+        "id": "tapper_oak",
+        "name": "Tapper - Oak",
+        "regrow": 6,
+        "seasons": [
+            "spring",
+            "summer",
+            "fall",
+            "winter"
+        ],
+        "sell": 0,
+        "stages": [
+          8
+        ],
+        "trellis": false
+      },
+      {
+        "buy": 0,
+        "harvest": {
+          "extra_chance": 0.0,
+          "level_increase": 5,
+          "max": 1,
+          "min": 1
+        },
+        "id": "tapper_pine",
+        "name": "Tapper - Pine",
+        "regrow": 3,
+        "seasons": [
+            "spring",
+            "summer",
+            "fall",
+            "winter"
+        ],
+        "sell": 0,
+        "stages": [
+          4
+        ],
+        "trellis": false
+      }
 	],
 	"fertilizer": [
 		{
